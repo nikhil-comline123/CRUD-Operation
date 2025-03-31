@@ -1,6 +1,6 @@
 <?php 
 //Database Connection
-include('dbconnection.php');
+include('config.php');
 if(isset($_POST['submit']))
   {
   	$eid=$_GET['editid'];

@@ -1,6 +1,6 @@
 <?php 
 //Databse Connection file
-include('dbconnection.php');
+include('config.php');
 if(isset($_POST['submit']))
   {
   	//getting the post values
